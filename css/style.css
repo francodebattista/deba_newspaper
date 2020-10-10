@@ -3,7 +3,6 @@ body{
     line-height: 1;
     margin: 0 px;
     padding: 0 px;
-    font: inherit
 }
 article{
     margin-top: 16px;
@@ -12,6 +11,7 @@ article{
     font-weight: 400;
     font-size: 16px;
     color: #3f3f42;
+    width: 100%;
     max-width: 800px;
 }
 header{
@@ -35,10 +35,6 @@ p{
     font-size: 16px;
     font-family: Helvetica, Arial, freesans, sans-serif;
     display: block;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 a{
     text-decoration: none;
@@ -55,7 +51,22 @@ a:hover{
     color:darkred;
     border-bottom: 1px solid darkred;
 }
-
+img{
+    width: 100%;
+}
+figcaption{
+    width: 100%;
+    background-color: #3f3f42;
+    margin-top: 0px;
+    padding: 16px;
+    color: #eeeeee;
+    font-size: 14px;
+    font-family: Helvetica, Arial, freesans, sans-serif;
+}
+div{
+    padding-left: 16px;
+    padding-right: 16px;
+}
 .main-split{
     margin-top: 24px;
     margin-bottom: 24px;
