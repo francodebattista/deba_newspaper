@@ -4,6 +4,7 @@
 
 the main idea of this project is to copy two articles from diferents webpages and practice what i have been learning from this two classes from de course
 
+---
 
 ## Copied Pages
 
@@ -11,6 +12,7 @@ First Week: url: https://www.ambito.com/agronegocios/soja/senal-el-campo-el-gobi
 
 Second Week url: https://www.bbc.com/news/technology-54444633
 
+---
 
 ## License & Copyright
 
