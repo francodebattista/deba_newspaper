@@ -1,0 +1,108 @@
+body{
+    background-color: #ffffff;
+    line-height: 1;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    color: #212529;
+    margin: 0 px;
+    padding: 0 px;
+    display: block;
+}
+header{
+    border-bottom: solid 1px #BABABA;
+    padding-bottom: 0px 16px;
+    display: block;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+}
+.time{
+    font-size: 13px;
+    text-align: left;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    color: #0289cb;
+}
+navbar{
+    text-align: center;
+    border-bottom: 1px #212529;
+}
+navbar ul{
+    list-style: none;
+    padding: 0px;
+
+}
+navbar li{
+    display: inline;
+}
+navbar a{
+    text-decoration: none;
+    display: inline;
+    color: #0289cb;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+article{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3f3f42;
+}
+h1{
+    color: #333333;
+    font-size: 60px;
+    font-weight: 700;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+}
+h2{
+    color: #666666;
+    font-size: 26px;
+    line-height: 28px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+p{
+    width: 90%;
+    color: #3F3F42;
+    line-height: 25.6px;
+    font-size: 16px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif
+}
+.img-amb{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 15px 0px;
+    display: inline-block;
+    align-items: center;
+}
+figcaption{
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 16px;
+    color: #474747;
+    font-size: 14px;
+    font-family: "roboto","IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+}
+.article-theme{
+    color: #0289cb;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    margin-bottom: 15px;
+}
+.theme{
+    text-transform: uppercase;
+    padding-right: 25px;
+}
+.note{
+    padding: 0px 15px;
+}
