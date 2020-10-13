@@ -15,12 +15,6 @@ header{
     font-size: 16px;
     font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
 }
-.time{
-    font-size: 13px;
-    text-align: left;
-    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
-    color: #0289cb;
-}
 navbar{
     text-align: center;
     border-bottom: 1px #212529;
@@ -68,20 +62,24 @@ h2{
     margin-right: 0px;
 }
 p{
-    width: 90%;
+    width: 100%;
     color: #3F3F42;
     line-height: 25.6px;
-    font-size: 16px;
-    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica Neue",Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-.img-amb{
-    width: 100%;
-    text-align: center;
+a{
+    color: #0289cb;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
     margin: 0px;
     padding: 0px;
-    border: 15px 0px;
-    display: inline-block;
-    align-items: center;
+    border: 0px;
 }
 figcaption{
     display: block;
@@ -103,6 +101,51 @@ figcaption{
     text-transform: uppercase;
     padding-right: 25px;
 }
+.person{
+    margin-bottom: 25px;
+}
+.author{
+    color: #0289cb;
+    font-size: 14.4px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+}
+.more-information{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px 0;
+}
+.a-more-information{
+    text-decoration: none;
+    color: #0289cb;
+    font-size: 18px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+}
+.a-more-information1{
+    text-decoration: none;
+    color: #353535;
+    font-size: 14px;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    margin-left: 75px;
+}
 .note{
     padding: 0px 15px;
+}.time{
+    font-size: 13px;
+    text-align: left;
+    font-family: "IBM Plex Sans", "Helvetica Neue",Arial, sans-serif;
+    color: #0289cb;
+}
+.img-amb{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 15px 0px;
+    display: inline-block;
+    align-items: center;
 }
